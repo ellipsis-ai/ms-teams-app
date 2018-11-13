@@ -1,0 +1,44 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "0.1.0",
+    "id": "37fcab57-1f09-49b1-8613-60b210b3963c",
+    "packageName": "ai.ellipsis.ellipsis",
+    "developer": {
+        "name": "Ellipsis Co.",
+        "websiteUrl": "https://ellipsis.ai",
+        "privacyUrl": "https://bot.ellipsis.ai/legal/privacy_policy",
+        "termsOfUseUrl": "https://bot.ellipsis.ai/legal/user_agreement"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Ellipsis",
+        "full": "Ellipsis"
+    },
+    "description": {
+        "short": "Your digital co-worker that answers questions and performs tasks",
+        "full": "Ellipsis is your digital co-worker that performs repetitive tasks and answers questions for your team in Slack. Install pre-built skills that increase your productivity, customize them to work the way you want, and create new skills for your team from scratch.\n\nWhen you install the Ellipsis app, an Ellipsis service account will be created for your team according to the terms of the user agreement: https://bot.ellipsis.ai/legal/user_agreement"
+    },
+    "accentColor": "#21222C",
+    "bots": [
+        {
+            "botId": "37fcab57-1f09-49b1-8613-60b210b3963c",
+            "scopes": [
+                "personal",
+                "team"
+            ],
+            "supportsFiles": true,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "bot.ellipsis.ai"
+    ]
+}
